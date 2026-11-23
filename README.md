@@ -1,16 +1,72 @@
-# React + Vite
+# Fiber Network Visualization
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+An interactive fiber-optic network visualization project built with **React**, **Deck.gl**, and **MapLibre**.
 
-Currently, two official plugins are available:
+The project visualizes fiber network connections on an interactive map and represents different network characteristics using visual properties such as color and line width.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Interactive fiber-optic network visualization
+- Network latency represented by line color
+- Network capacity represented by line width
+- Visualization of different connection types
+- Region-based filtering
+- Interactive map navigation with MapLibre
+- High-performance data visualization with Deck.gl
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Technologies
 
-## Expanding the Oxlint configuration
+- React
+- Vite
+- Deck.gl
+- MapLibre GL
+- JavaScript
+- CSS
+- JSON
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Project Structure
+
+```text
+src/
+├── assets/
+├── data/
+│   └── fiberNetwork.json
+├── App.jsx
+├── App.css
+├── index.css
+└── main.jsx
+```
+
+The network data used by the application is stored in `fiberNetwork.json`.
+
+## Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/banuercan/fiber-network-visualization.git
+```
+
+Navigate to the project directory:
+
+```bash
+cd fiber-network-visualization
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open the local development URL displayed in the terminal.
+
+## Purpose
+
+This project was developed to explore interactive geospatial visualization techniques using Deck.gl and MapLibre. It demonstrates how network characteristics such as latency, capacity, and connection type can be represented visually on an interactive map.
