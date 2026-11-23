@@ -1,0 +1,233 @@
+[
+  {
+    "id": "LINE-MAR-01",
+    "name": "İstanbul - Ankara Ana Omurga",
+    "region": "Marmara",
+    "type": "BACKBONE",
+    "operator": "Turkcell Superonline",
+    "capacityTbps": 10,
+    "latencyMs": 12,
+    "status": "HEALTHY",
+    "path": [[28.9869, 41.0602], [30.0186, 40.7654],[31.5833, 40.7333], [32.8597, 39.9334]]
+  },
+  {
+    "id": "LINE-MAR-02",
+    "name": "İstanbul - Edirne Avrupa Çıkışı",
+    "region": "Marmara",
+    "type": "CROSS_BORDER",
+    "operator": "Türk Telekom",
+    "capacityTbps": 12,
+    "latencyMs": 8,
+    "status": "HEALTHY",
+    "path": [[28.9869, 41.0602], [27.9575, 41.2797], [26.5556, 41.6772]]
+  },
+  {
+    "id": "LINE-MAR-03",
+    "name": "Bursa - Balıkesir Ring Hattı",
+    "region": "Marmara",
+    "type": "REGIONAL",
+    "operator": "Vodafone",
+    "capacityTbps": 4,
+    "latencyMs": 19,
+    "status": "HEALTHY",
+    "path": [[29.0600, 40.1800], [28.1300, 40.4000], [27.6000, 39.6000]]
+  },
+  {
+    "id": "LINE-EGE-01",
+    "name": "İzmir - Manisa - Balıkesir İletim Hattı",
+    "region": "Ege",
+    "type": "REGIONAL",
+    "operator": "Turkcell Superonline",
+    "capacityTbps": 6,
+    "latencyMs": 15,
+    "status": "HEALTHY",
+    "path": [[27.1428, 38.4237], [27.4289, 38.6191], [27.6000, 39.6000]]
+  },
+  {
+    "id": "LINE-EGE-02",
+    "name": "İzmir - Aydın - Denizli Bağlantısı",
+    "region": "Ege",
+    "type": "REGIONAL",
+    "operator": "Türk Telekom",
+    "capacityTbps": 5,
+    "latencyMs": 28,
+    "status": "HEALTHY",
+    "path": [[27.1428, 38.4237], [27.8458, 37.8444], [29.0875, 37.7765]]
+  },
+  {
+    "id": "LINE-EGE-03",
+    "name": "Marmaris - Bodrum Sahil Bağlantısı",
+    "region": "Ege",
+    "type": "SUBSEA",
+    "operator": "Vodafone",
+    "capacityTbps": 3,
+    "latencyMs": 42,
+    "status": "MODERATE",
+    "path": [[27.4305, 37.0344], [28.2709, 36.8550]]
+  },
+  {
+    "id": "LINE-AKD-01",
+    "name": "Marmaris - Antalya Akdeniz Deniz Altı Hattı",
+    "region": "Akdeniz",
+    "type": "SUBSEA",
+    "operator": "Türk Telekom",
+    "capacityTbps": 8,
+    "latencyMs": 22,
+    "status": "HEALTHY",
+    "path": [[28.2709, 36.8550], [29.2833, 36.6217], [30.7133, 36.8969]]
+  },
+  {
+    "id": "LINE-AKD-02",
+    "name": "Antalya - Mersin - Adana Kıyı Hattı",
+    "region": "Akdeniz",
+    "type": "REGIONAL",
+    "operator": "Turkcell Superonline",
+    "capacityTbps": 4,
+    "latencyMs": 65,
+    "status": "CRITICAL",
+    "path": [[30.7133, 36.8969], [32.8869, 36.0751], [34.6414, 36.8000], [35.3213, 37.0000]]
+  },
+  {
+    "id": "LINE-AKD-03",
+    "name": "Adana - Hatay İskenderun Körfez Hattı",
+    "region": "Akdeniz",
+    "type": "REGIONAL",
+    "operator": "Vodafone",
+    "capacityTbps": 3,
+    "latencyMs": 35,
+    "status": "MODERATE",
+    "path": [[35.3213, 37.0000], [36.1772, 36.5872], [36.1600, 36.2000]]
+  },
+  {
+    "id": "LINE-ICA-01",
+    "name": "Ankara - Eskişehir - Bursa İletim Hattı",
+    "region": "İç Anadolu",
+    "type": "BACKBONE",
+    "operator": "Türk Telekom",
+    "capacityTbps": 8,
+    "latencyMs": 14,
+    "status": "HEALTHY",
+    "path": [[32.8597, 39.9334], [30.5256, 39.7767], [29.0600, 40.1800]]
+  },
+  {
+    "id": "LINE-ICA-02",
+    "name": "Ankara - Konya Sanayi Bağlantısı",
+    "region": "İç Anadolu",
+    "type": "REGIONAL",
+    "operator": "Turkcell Superonline",
+    "capacityTbps": 5,
+    "latencyMs": 24,
+    "status": "HEALTHY",
+    "path": [[32.8597, 39.9334], [32.4932, 37.8714]]
+  },
+  {
+    "id": "LINE-ICA-03",
+    "name": "Ankara - Kayseri - Sivas Hattı",
+    "region": "İç Anadolu",
+    "type": "REGIONAL",
+    "operator": "Vodafone",
+    "capacityTbps": 3,
+    "latencyMs": 58,
+    "status": "MODERATE",
+    "path": [[32.8597, 39.9334], [35.4853, 38.7205], [37.0147, 39.7500]]
+  },
+  {
+    "id": "LINE-KAR-01",
+    "name": "Ankara - Çorum - Samsun İletim Hattı",
+    "region": "Karadeniz",
+    "type": "REGIONAL",
+    "operator": "Türk Telekom",
+    "capacityTbps": 4,
+    "latencyMs": 30,
+    "status": "HEALTHY",
+    "path": [[32.8597, 39.9334], [33.5833, 40.5500], [36.3300, 41.2867]]
+  },
+  {
+    "id": "LINE-KAR-02",
+    "name": "Samsun - Ordu - Trabzon Sahil Hattı",
+    "region": "Karadeniz",
+    "type": "REGIONAL",
+    "operator": "Vodafone",
+    "capacityTbps": 2,
+    "latencyMs": 85,
+    "status": "CRITICAL",
+    "path": [[36.3300, 41.2867], [37.8800, 40.9800], [38.3800, 40.9100], [39.7167, 41.0000]]
+  },
+  {
+    "id": "LINE-KAR-03",
+    "name": "Trabzon - Rize - Artvin Gürcistan Sınır Hattı",
+    "region": "Karadeniz",
+    "type": "CROSS_BORDER",
+    "operator": "Turkcell Superonline",
+    "capacityTbps": 3,
+    "latencyMs": 72,
+    "status": "CRITICAL",
+    "path": [[39.7167, 41.0000], [40.5150, 41.0250], [41.8333, 41.1833]]
+  },
+  {
+    "id": "LINE-DAG-01",
+    "name": "Sivas - Erzincan - Erzurum Doğu Omurgası",
+    "region": "Doğu Anadolu",
+    "type": "REGIONAL",
+    "operator": "Türk Telekom",
+    "capacityTbps": 3,
+    "latencyMs": 45,
+    "status": "MODERATE",
+    "path": [[37.0147, 39.7500], [39.4900, 39.7300], [41.2769, 39.9043]]
+  },
+  {
+    "id": "LINE-DAG-02",
+    "name": "Erzurum - Kars - Ağrı Kafkas Bağlantısı",
+    "region": "Doğu Anadolu",
+    "type": "CROSS_BORDER",
+    "operator": "Vodafone",
+    "capacityTbps": 1,
+    "latencyMs": 95,
+    "status": "CRITICAL",
+    "path": [[41.2769, 39.9043], [43.0975, 40.6013], [43.0500, 39.7200]]
+  },
+  {
+    "id": "LINE-DAG-03",
+    "name": "Elazığ - Malatya - Van Bağlantı Hattı",
+    "region": "Doğu Anadolu",
+    "type": "REGIONAL",
+    "operator": "Turkcell Superonline",
+    "capacityTbps": 2,
+    "latencyMs": 62,
+    "status": "CRITICAL",
+    "path": [[38.2167, 38.3500], [39.2200, 38.6700], [43.3800, 38.5000]]
+  },
+  {
+    "id": "LINE-GAP-01",
+    "name": "Adana - Gaziantep - Şanlıurfa Güneydoğu Omurgası",
+    "region": "Güneydoğu Anadolu",
+    "type": "REGIONAL",
+    "operator": "Turkcell Superonline",
+    "capacityTbps": 5,
+    "latencyMs": 38,
+    "status": "MODERATE",
+    "path": [[35.3213, 37.0000], [37.3833, 37.0667], [38.7953, 37.1583]]
+  },
+  {
+    "id": "LINE-GAP-02",
+    "name": "Şanlıurfa - Diyarbakır - Mardin Dağıtım Hattı",
+    "region": "Güneydoğu Anadolu",
+    "type": "REGIONAL",
+    "operator": "Türk Telekom",
+    "capacityTbps": 3,
+    "latencyMs": 28,
+    "status": "HEALTHY",
+    "path": [[38.7953, 37.1583], [40.2306, 37.9144], [40.7300, 37.3100]]
+  },
+  {
+    "id": "LINE-GAP-03",
+    "name": "Diyarbakır - Batman - Siirt İletim Hattı",
+    "region": "Güneydoğu Anadolu",
+    "type": "REGIONAL",
+    "operator": "Vodafone",
+    "capacityTbps": 2,
+    "latencyMs": 50,
+    "status": "MODERATE",
+    "path": [[40.2306, 37.9144], [41.1300, 37.8800], [41.9400, 37.9300]]
+  }
+]
